@@ -9,6 +9,8 @@ body {
         height: 80px;
         background-color: gray;
         font-stretch: expanded;
+        border-radius: 25px;
+        margin-bottom: 15px;
         
     }
 
@@ -22,6 +24,8 @@ body {
     .topnav {
         overflow: hidden;
         background-color: #333;
+        border-radius: 25px;
+      
       }
       
       .topnav a {
@@ -41,4 +45,14 @@ body {
       .topnav a.active {
         background-color: blue;
         color: white;
+      }
+
+      #Insigne {
+        content: url(/Images/Insignia.jpg);
+        border-width: 5px;
+        margin: auto;
+        position: static;
+        border-radius: 50px;
+        padding: 25px;
+
       }
